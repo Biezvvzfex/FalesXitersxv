@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Fales Xiters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Checkout - Fales Xiters</h1>
+    <div class="details">
+      <p><strong>Nome:</strong> <span id="name"></span></p>
+      <p><strong>E-mail:</strong> <span id="email"></span></p>
+      <p><strong>Telefone:</strong> <span id="phone"></span></p>
+    </div>
+    <div class="total">Total a pagar: R$ 25,00</div>
+    <div class="qr-code-container" id="qrCodeContainer">
+      <h2>Pagamento Pix</h2>
+      <img id="qrCode" alt="QR Code Pix">
+      <div class="pix-code" id="pixCode"></div>
+      <div class="timer" id="timer">QR Code expira em: 30:00</div>
+    </div>
+    <div class="message">
+      <strong>📧 Atenção:</strong><br>
+      Após a confirmação do pagamento, o acesso ao <strong>Xit Exclusivo</strong> será enviado automaticamente para o seu e-mail cadastrado.
+    </div>
+    <div class="btn-container">
+      <a href="index.html" class="btn small-btn">Voltar para a Tela Inicial</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
